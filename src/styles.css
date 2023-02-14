@@ -8,24 +8,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #000;
-}
-
-.footer {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #000;
-}
-
-.content {
-  min-height: calc(100vh - 100px);
   border-bottom: 1px solid black;
 }
 
 .footer {
   height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+}
+
+.content {
+  min-height: calc(100vh - 140px);
+  width: 760px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  height: 450px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,4 +55,5 @@ body {
 
 .section:first-child {
   margin-top: 0;
+  border: 1px solid black;
 }
