@@ -23,3 +23,18 @@ body {
   min-height: calc(100vh - 100px);
   border-bottom: 1px solid black;
 }
+
+.footer {
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #000;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+  width: 720px;
+  min-width: 100%;
+  margin: auto;
+}
